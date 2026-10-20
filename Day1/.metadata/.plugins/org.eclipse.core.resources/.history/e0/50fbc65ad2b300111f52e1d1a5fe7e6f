@@ -1,0 +1,23 @@
+package com.demo.array;
+
+public class Array1D {
+
+	private int[] arr;
+	private int count;
+
+	public Array1D() {
+		arr = new int[10];
+		count = 0;
+	}
+
+	public Array1D(int[] arr1, int count) {
+		arr = arr1;
+	}
+
+	public Array1D(int size, int count) {
+
+		this.arr = new int[size];
+		this.count = count;
+	}
+
+}
